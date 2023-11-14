@@ -1,0 +1,9 @@
+<!-- task-filter.component.html -->
+<div>
+  <label>Filtrar tareas:</label>
+  <select (change)="applyFilter($event)">
+    <option value="all">Todas</option>
+    <option value="completed">Completadas</option>
+    <option value="uncompleted">No Completadas</option>
+  </select>
+</div>
